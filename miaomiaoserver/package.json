@@ -1,0 +1,40 @@
+{
+  "name": "miaomiaoserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": {
+      "integrity": "sha512-dhEPs72UPbDnAQJ9ZKMNTP6ptJaionhP5cBb541nXPlW60Jepo9RV/a4fX4XWW9CuFNK22krhrj1+rgzifNCsw==",
+      "requires": {
+        "bytes": "3.1.0",
+        "content-type": "~1.0.4",
+        "debug": "2.6.9",
+        "depd": "~1.1.2",
+        "http-errors": "1.7.2",
+        "iconv-lite": "0.4.24",
+        "on-finished": "~2.3.0",
+        "qs": "6.7.0",
+        "raw-body": "2.4.0",
+        "type-is": "~1.6.17"
+      },
+      "resolved": "https://registry.npmjs.org/body-parser/-/body-parser-1.19.0.tgz",
+      "version": "1.19.0"
+    },
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.16.1",
+    "http-errors": "^1.6.3",
+    "mongoose": "^5.5.12",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.1",
+    "nodemailer": "^6.2.1",
+    "random-bytes": "^1.0.0",
+    "trek-captcha": "^0.4.0",
+    "uid-safe": "^2.1.5"
+  }
+}
